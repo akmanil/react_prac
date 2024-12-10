@@ -10,6 +10,7 @@ const Navbar = () => {
         <Link to = "/contact">Contact</Link>
       </ul>
       <Outlet />
+      {/* outlet stored which page will be render */}
     </div>
     
   )
